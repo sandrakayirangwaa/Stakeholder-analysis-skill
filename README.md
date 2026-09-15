@@ -1,5 +1,3 @@
-# Stakeholder-analysis-skill
-
 # Stakeholder Analysis Skill
 
 This repository contains a stakeholder analysis skill for AI assistants. It helps you understand the people and groups involved in a project, what they care about, how the project may affect them, and where problems or resistance might come from.
