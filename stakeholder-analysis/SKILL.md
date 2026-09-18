@@ -13,7 +13,7 @@ Product Manager
 The success of a product or organizational initiative depends not only on the solution itself, but also on the people and groups affected by it.
 
 This skill uses three sources of context:
-
+g, its purpose, and
 1. **Project Documentation:** A PRD, research report, operational brief or other document describing the initiative, its goals, scope, timeline and expected changes.
 2. **Good Example:** A reference stakeholder analysis showing the expected level of analytical depth, realism, writing style and structure.
 3. **Bad Example:** A reference analysis showing shallow reasoning, assumptions or weak stakeholder analysis that should be avoided.
@@ -62,7 +62,7 @@ Consider:
 - How the initiative could affect their work, resources, metrics, authority, or priorities.
 
 ### 4. Assess interests and likely behavior
-For each stakeholder, identify their likely interests and concerns based on their role and the project's impact.
+For each stakeholder, identify their likely interests and concerns based on their role and the project's impact. 
 
 Consider realistic organizational incentives such as:
 
@@ -78,7 +78,7 @@ Consider realistic organizational incentives such as:
 Do not assume that stakeholders will automatically support the initiative because it benefits the organization overall.
 
 ### 5. Develop the engagement strategy
-Based on the stakeholder's influence, interest, concerns, and likely behavior, determine how they should be engaged.
+Based on the stakeholder's influence, interest, concerns, and likely behavior, determine how they should be engaged. Add an introduction to each and every table , explaining its purpose and what is being represented.
 
 Recommendations should explain:
 
@@ -93,34 +93,73 @@ Recommendations should explain:
 
 Produce one clean, structured Markdown document.
 
-Use Markdown tables, pipe-separated matrices, or visual grids.
+The output MUST follow the structure below exactly.
 
-Follow this structure exactly:
+### MANDATORY INTRODUCTION RULE
+
+Add a short introduction before every major section that contains a table, list, timeline, matrix, or detailed analysis.
+
+The introduction should:
+- Explain what the section is about.
+- Explain why it is included.
+- Briefly tell the reader what they should look for.
+
+Always use this order:
+
+### Section heading
+
+[Short introduction]
+
+[Table, list, timeline, or analysis]
+
+Do not put a table or list directly under a heading without an introduction.
+
+Keep introductions short and specific to the project. Avoid empty phrases such as "The table below shows..." or "This section provides an overview."
+
+---
 
 ### Executive summary
+
+[Provide a concise introduction explaining that this section gives the reader the overall picture of the initiative, its organizational impact, and the stakeholder dependencies that could materially affect execution.]
 
 - **Initiative Summary:** Briefly explain the initiative, its main objective, timeline, and organizational impact.
 - **Critical Path Group:** Identify the stakeholder or stakeholder group whose support, resistance, decision-making authority, or operational dependency presents the greatest risk to successful execution. Explain why.
 
-### Strategic stakeholder map
-- **introduction**: Provide a brief overview of the stakeholder map, its purpose, and how it was developed.
+---
 
-- **High Power / High Interest (Key Players):** List the relevant stakeholders and briefly explain their position.
-- **High Power / Low Interest (Keep Satisfied):** List the relevant stakeholders and briefly explain their position.
-- **Low Power / High Interest (Keep Informed):** List the relevant stakeholders and briefly explain their position.
-- **Low Power / Low Interest (Monitor):** List the relevant stakeholders and briefly explain their position.
+#### Stakeholder Engagement Matrix
 
+[Short introduction explaining what this table shows and why it matters.]
 
-#### Stakeholder: [Name or Group]
-- **introduction**: Provide a brief description of the stakeholder's role, responsibilities, and relationship to the initiative.
+| Stakeholder | Engagement Frequency | Communication Channel | Key Message | Level of Involvement |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
 
-- **Organizational Role & Mandate:** Define the stakeholder's role, responsibilities, and relevant authority.
-- **Core Interests & Drivers:** Explain what they are likely to value, protect, gain, or lose in relation to the initiative.
-- **Impact Diagnosis:** Explain how the initiative could affect their responsibilities, workload, resources, metrics, authority, or objectives.
-- **Behavioral Risk & Friction Points:** Identify realistic objections, resistance, dependencies, or sources of friction that could arise.
-- **Communication & Engagement:** Recommend the appropriate communication channel, cadence, level of involvement, and messaging approach.
+### Stakeholder Impact Timeline by Project Phase
 
-Repeat the detailed analysis for every stakeholder provided.
+[Short introduction explaining what this timeline shows and why it matters.]
+
+| Stakeholder | Phase 1 | Phase 2 | Phase 3 |
+|---|---|---|---|
+| ... | ... | ... | ... |
+
+### Engagement Risk Summary
+
+[Short introduction explaining what risks are being summarized and why they matter.]
+
+**Highest execution risk:** ...
+
+**Highest regulatory risk:** ...
+
+**Operational risk:** ...
+
+**Recommended mitigation:**
+
+1. ...
+2. ...
+3. ...
+
+---
 
 ## Guardrails
 
